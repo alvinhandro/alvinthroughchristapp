@@ -1,0 +1,14 @@
+name = "resurrection-api"
+main = "functions/api/[[path]].js"
+compatibility_date = "2023-07-20"
+
+# This section is for Cloudflare Pages Functions
+[pages_build_output]
+dir = "./build"
+
+# D1 Database Binding for local development and deployment
+# The name "DB" is how we will access the database in our Worker code.
+[[d1_databases]]
+binding = "DB"
+database_name = "resurrection-db"
+database_id = "<your-database-id-here>" # Replace with your actual DB ID
