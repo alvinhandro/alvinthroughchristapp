@@ -37,7 +37,7 @@ Follow these instructions to get the project running locally and deploy it to Cl
 
 1.  **Clone the repository**
     ```sh
-    git clone https://www.github.com/alvinthroughchrist/alvinthroughchristapp
+    git clone https://www.github.com/alvinhandro/alvinthroughchristapp
     cd resurrection-app-cloudflare
     ```
 
